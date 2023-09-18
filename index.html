@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - By Omkar Kotekar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="title">
+            <h1>Welcome to Calculator</h1>
+        </div>
+        <div class="display">
+            <input type="text" name="output" dir="rtl" id="screen">
+        </div>
+        <div class="buttons">
+            <div class="row">
+                <button onclick="percent()">%</button>
+                <button onclick="clearScreen()">CE</button>
+                <button onclick="clearScreen()">C</button>
+                <button onclick="backspace()">&larr;</button>
+            </div>
+            <div class="row">
+                <button onclick="textvalue(this)">1</button>
+                <button onclick="textvalue(this)">2</button>
+                <button onclick="textvalue(this)">3</button>
+                <button onclick="textvalue(this)">+</button>
+            </div>
+            <div class="row">
+                <button onclick="textvalue(this)">4</button>
+                <button onclick="textvalue(this)">5</button>
+                <button onclick="textvalue(this)">6</button>
+                <button onclick="textvalue(this)">-</button>
+            </div>
+            <div class="row">
+                <button onclick="textvalue(this)">7</button>
+                <button onclick="textvalue(this)">8</button>
+                <button onclick="textvalue(this)">9</button>
+                <button onclick="textvalue(this)">*</button>
+            </div>
+            <div class="row">
+                <button onclick="textvalue(this)">.</button>
+                <button onclick="textvalue(this)">0</button>
+                <button onclick="getResult()">=</button>
+                <button onclick="textvalue(this)">/</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
